@@ -1,0 +1,19 @@
+/* Apply base styles to the entire application */
+body {
+  margin: 0;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Base background from color scheme */
+  color: #1A1917;
+  /* Base text color */
+}
+
+/* Use border-box sizing for more intuitive layout calculations */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
