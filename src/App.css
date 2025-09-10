@@ -91,7 +91,6 @@
   color: #F4F0E6;
 }
 
-/* Refactored styles for the info button */
 .info-button {
   width: 40px;
   height: 40px;
@@ -262,15 +261,7 @@
 /* --- Prompt Input Footer --- */
 .prompt-container {
   padding: 1rem;
-}
-
-/* Initial view centers the form */
-.initial-view .prompt-container {
-  background-color: transparent;
-}
-
-/* Conversation view fixes it to the bottom */
-.conversation-view .prompt-container {
+  /* Ensure the prompt bar is always fixed at the bottom */
   position: fixed;
   bottom: 0;
   left: 0;
@@ -279,6 +270,7 @@
   background-color: transparent;
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
+  z-index: 20;
 }
 
 .prompt-form {
