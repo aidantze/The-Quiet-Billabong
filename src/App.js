@@ -118,11 +118,11 @@ function App() {
       <header className="app-header">
         <div className="logo-container">
           <img
-            src="https://res.cloudinary.com/dg6nuqapw/image/upload/v1757479433/logo_a0nxdf.png"
-            alt="The Quiet Billabong Logo"
+            src="https://res.cloudinary.com/dg6nuqapw/image/upload/v1757554392/yarnlink-logo_goiaoz.png"
+            alt="Yarn Link Logo"
             className="app-logo"
           />
-          <span className="app-title">The Quiet Billabong</span>
+          <span className="app-title">Yarn Link</span>
         </div>
         <div className="header-buttons">
           <button className="header-button info-button" aria-label="Help and information" onClick={ handleModalToggle }>
@@ -197,11 +197,11 @@ function App() {
             </button>
             <h2 className="modal-title">Our purpose</h2>
             <p className="modal-description">
-              The Quiet Billabong was developed by Algonova to provide a friendly, safe and accessible mental health support tool to regional Australians, which includes Aboriginal and Torres Strait Islander peoples. We aim to bridge the accessibility, affordability and effectiveness gap of mental health support in rural communities across Australia.
+              Yarn Link was developed by Algonova to provide a friendly, safe and accessible mental health support tool to regional Australians, which includes Aboriginal and Torres Strait Islander peoples. We aim to bridge the accessibility, affordability and effectiveness gap of mental health support in rural communities across Australia.
               <br /><br />
               The service uses generative AI to analyse each and every prompt, tailoring its response in a respectful, gentle and calm manner to assist with any basic mental needs. The intelligence is trained on data across regional Australia, and responds with a storytelling mindset to give you a safe, calm experience that understands your culture. Even if you ask it to do something it cannot do, it will recommend other mental health services near you to contact.
               <br /><br />
-              The Quiet Billabong acknowledges the Traditional Owners and Custodians of the lands that this platform serves and was built upon. We pay our respects to Elders past and present, and emerging leaders, and we extend that respect to all other Aboriginal and Torres Strait Islander peoples. This always is, was and will be, Aboriginal land.
+              Yarn Link acknowledges the Traditional Owners and Custodians of the lands that this platform serves and was built upon. We pay our respects to Elders past and present, and emerging leaders, and we extend that respect to all other Aboriginal and Torres Strait Islander peoples. This always is, was and will be, Aboriginal land.
             </p>
           </div>
         </div>
