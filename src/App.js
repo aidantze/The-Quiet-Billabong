@@ -28,6 +28,14 @@ const XIcon = () => (
   </svg>
 );
 
+const AudioIcon = () => (
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path d="M3 9V15H7L12 20V4L7 9H3Z" fill="currentColor" />
+    <path d="M16.5 12C16.5 10.23 15.4 8.71 13.8 7.96V16.04C15.4 15.29 16.5 13.77 16.5 12Z" fill="currentColor" />
+    <path d="M19.9 5.5C21.49 7.31 22.5 9.61 22.5 12C22.5 14.39 21.49 16.69 19.9 18.5L18.49 17.09C19.74 15.76 20.5 13.96 20.5 12C20.5 10.04 19.74 8.24 18.49 6.91L19.9 5.5Z" fill="currentColor" />
+  </svg>
+);
+
 function App() {
   const [conversation, setConversation] = useState([]);
   const [inputValue, setInputValue] = useState('');
@@ -183,6 +191,9 @@ function App() {
             aria-label="Your message"
             disabled={ isLoading }
           />
+          <button type="button" className="prompt-button audio-button" aria-label="Listen to the response">
+            <AudioIcon /> Voice
+          </button>
           <button type="submit" className="prompt-button send-button" disabled={ isLoading || !inputValue.trim() } aria-label="Send message">
             <SendIcon /> Send
           </button>

@@ -1,5 +1,7 @@
-# The-Quiet-Billabong
+# Yarn Link
 Algonova Group's frontend submission for Capital W's Case Competition: a conversational AI that yarns to empathise with aboriginal and regional Australians, to provide mental health support to rural communities. This frontend is built using React.js.
+
+> Yarn Link was formerly known as The Quiet Billabong, renamed in 11/11/25
 
 ## Getting Started with Create React App
 
